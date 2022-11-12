@@ -127,8 +127,9 @@ int main()
                 shell(boletos[boletoActualCapturar].numeros, 5);
                
                 boletos[boletoActualCapturar].id = boletoActualCapturar;
+		boletos[boletoActualCapturar].aciertos = 0;
                 boletoActualCapturar++;
-                // TODO falta acomodar los numeros despues de ingresarlos
+                
                 
                 
                 break;
